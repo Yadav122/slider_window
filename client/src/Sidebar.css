@@ -1,0 +1,60 @@
+
+  .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+
+  }
+  
+  .sidebar {
+    width: 200px;
+    min-width: 200px;
+    height: 100vh;
+    background: #a56f6f;
+    color: #fff;
+    position: fixed;
+    border-radius: 10px;
+    top: 0;
+    left: -200px;
+    transition: left 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+   
+    
+  }
+  
+  .sidebar ul li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #74f18f;
+    cursor: pointer;
+    border-radius: 10px;
+    word-wrap: break-word;
+    cursor: ew-resize;
+
+    /* cursor: ew-resize; */
+    
+  }
+
+ .list-image {
+    margin-top: 0px;
+    margin-left: 160px;
+    position: static; /* Image ko absolute position mein set kare */
+    top: -50px; /* List ke naam ke upar set kare */
+    left: 10px; /* Left side se thoda sa distance rakhe */
+    z-index: 1; /* Image ko list ke upar le aane ke liye z-index use kare */
+    border: 2px solid #ccc; /* Example ke liye border add kiya gaya hai */
+    border-radius: 50%; /* Image ke liye rounded border */
+    width: 50px; /* Image ka width */
+    height: 50px; 
+   
+
+} 
+
+  
